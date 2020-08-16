@@ -36,6 +36,40 @@
   color: midnightblue;
 }
 
-.main{
-  background-image: url("images/material/top1");
+.main-img{
+  background-image: url(material/study1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  position: absolute;
+}
+
+.main-text{
+  color: midnightblue;
+  position: relative;
+  font-size: 70px;
+  margin-left: 20px;
+  padding-top: 50px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.culiculum{
+  color: midnightblue;
+  height: 50px;
+  position: relative;
+  margin-top: 300px;
 }
