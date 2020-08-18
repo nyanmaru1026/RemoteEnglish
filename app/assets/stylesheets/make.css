@@ -30,7 +30,13 @@
 .make-curriculum{
   font-weight: bold;
   font-size: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #ddd;
+  display: inline-block;
+}
+
+.make-curriculum_text{
+  margin-bottom: 30px;
 }
 
 .total{
@@ -39,12 +45,12 @@
 
 .left{
   background-color: gray;
-  height: 100%;
+  /* height: 100%; */
   width: 50px;
 }
 
 .right{
   background-color: gray;
-  height: 100%;
+  /* height: 100%; */
   width: 50px;
 }
