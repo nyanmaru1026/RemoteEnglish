@@ -1,24 +1,22 @@
-# README
+# Remote English
+ネット環境があればどこでも英語が学べる大学受験専用の学習サイト
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Features
+・deviseを用いたユーザー登録
+・Action Cableを用いた進捗管理形式
+・ajaxを用いた非同期通信
+・capistranoによるAWS EC2への自動デプロイ
+・ActiveStorageを使用しAWS S3への画像アップロード
 
-Things you may want to cover:
+## Requirement
+・Ruby 2.5.1
+・Rails 5.2.3
 
-* Ruby version
 
-* System dependencies
+## Usersテーブル
+| Column | Type | Options |
+|:-----------:|:------------:|:------------:|
+| nickname       | string        | null: false         |
+| email   | string      | null: false       |
+| encrypted_password      | string        | null: false         |
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
