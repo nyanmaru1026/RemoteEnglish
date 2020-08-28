@@ -39,18 +39,112 @@
   margin-bottom: 30px;
 }
 
+.make-curriculum_text-img{
+  background-image: url(material/a.jpg);
+  background-repeat: no-repeat;
+  background-size:contain;
+  height: 300px;
+  width: 500px;
+  margin-top: 30px;
+}
+
+.make2{
+  margin-bottom: 30px;
+}
+
+.make3{
+  display: inline-block;
+  position: relative;
+  padding: 0.25em 1em;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+  text-decoration: none;
+  font-weight: bold;
+  color: #03A9F4;
+  margin-bottom: 30px;
+}
+
+.make3:before,.make3:after{
+  content: '';
+  position: absolute;
+  top: -7px;
+  width: 2px;
+  height: -webkit-calc(100% + 14px);
+  height: calc(100% + 14px);
+  background-color: black;
+  transition: .3s;
+}
+
+.make3:before {
+  left: 7px;
+}
+.make3:after {
+  right: 7px;
+}
+.make3:hover:before {
+  top: 0px;
+  left:0;
+  height: 100%;
+}
+.make3:hover:after {
+  top: 0px;
+  right: 0;
+  height: 100%;
+}
+
+.make4{
+  display: flex;
+}
+
+.make4-pre{
+  margin-left: 450px;
+  margin-right: 10px;
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: solid 2px #67c5ff;
+  border-radius: 3px;
+  transition: .4s;
+}
+
+.make4-pre:hover {
+  background: #67c5ff;
+  color: white;
+}
+
+.make4-next{
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: solid 2px #67c5ff;
+  border-radius: 3px;
+  transition: .4s;
+}
+
+.make4-next:hover{
+  background: #67c5ff;
+  color: white;
+}
+
 .total{
   display: flex;
 }
 
 .left{
-  background-color: gray;
+  background-color: #ddd;
   /* height: 100%; */
-  width: 50px;
+  width: 100px;
 }
 
 .right{
-  background-color: gray;
+  background-color: #ddd;
   /* height: 100%; */
-  width: 50px;
+  width: 100px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }
